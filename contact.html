@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolioWebsite_Prototype_1</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="nav">
+            <nav>
+                <div class="logo">
+                    <img src="images/MITHUN_IMAGE.png" alt="logo">
+                    <div class="title">MithunDas Portfolio</div>
+                </div>
+
+                <ul>
+                    <li>
+                        <a href="/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="/projects.html">Projects</a>
+                    </li>
+                    <li class="active">
+                        <a href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="maintext">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ad reprehenderit itaque alias totam doloremque incidunt officia tenetur laborum laboriosam rem aut at vel odit commodi laudantium, possimus maiores? Quidem.
+        </div>
+        
+        <h3 class="title">Contact</h3>
+        <div class="container">
+           
+            <!-- form -->
+            <form action="">
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" id="fname" placeholder="John">
+
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lname" placeholder="Doe">
+
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="India">India</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="china">CHINA</option>
+                    <option value="australia">AUSTRALIA</option>
+                    <option value="others">Others</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <!-- map -->
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58832.367547639165!2d88.61131628409532!3d22.83863960134763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8b05b5bbc32af%3A0x1c137b4a7842c5fc!2sHabra%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1711543565047!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="footer">
+            Copyright &copy; Mithun Das 2024
+        </div>
+    </div>
+</body>
+</html>
